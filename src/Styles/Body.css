@@ -1,5 +1,4 @@
 .All {
-  
   width: 100%;
   height: 55vh;
   display: flex;
@@ -17,8 +16,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  
-    margin: 10px;
+  margin: 20px;
 }
 
 .box {
@@ -46,11 +44,11 @@
   font-size: 24px;
   font-weight: bold;
   font-family: Courier, monospace;
-  padding-top: 25px;
-  margin: 20px; /* Adjust as needed */
+  padding-top: 35px;
+  margin: 20px; 
   text-align: center;
-  color: #000000; /* Change the color as needed */
-  animation: fadeInUp 1s ease-in-out; /* Add animation */
+  color: #000000;
+  animation: fadeInUp 1s ease-in-out; 
 }
 @keyframes fadeInUp {
   from {
@@ -62,4 +60,29 @@
     transform: translateY(0);
   }
 }
+@media (max-width: 768px) {
+  .All {
+    padding: 30px; 
+  }
 
+  .container {
+    flex-direction: column; 
+  }
+
+  .box {
+    width: 100%; 
+    height: 30vh;
+    margin-right: 60px;
+  }
+  
+#txt{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Courier, monospace;
+  padding-top: 120px;
+  margin: 1px; 
+  text-align: center;
+  color: #000000; 
+  animation: fadeInUp 1s ease-in-out; 
+}
+}

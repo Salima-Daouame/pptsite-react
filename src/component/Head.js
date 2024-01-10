@@ -5,9 +5,9 @@ import "../Styles/Head.css"
 function Head() {
   return (
     <>
-     <div className="Navbar">
-       <img src={logo} alt="" />
-       </div>
+      <div className="Navbar">
+        <img src={logo} alt="" />
+      </div>
     </>
   )
 }

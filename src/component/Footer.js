@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <div  className="footer">
-      <p>&#x3c; &#47; &#x3e; Create with ❤️ By Salima </p>
+      <p className="copyright_txt">&#x3c; &#47; &#x3e; Create with ❤️ By Salima </p>
       </div>
     </>
   )
